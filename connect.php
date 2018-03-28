@@ -71,7 +71,7 @@ while ($row = $dataObj->fetch_assoc()) {
     <link rel="stylesheet"  type="text/css" href="connect.css"/>
     <style >
     	body{
-    		background-image:url("img/bg-img5.jpg");
+    		background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JrbItQz/snowfall-on-light-blue-seamless-loop-christmas-background-4k-4096x2304_nj20ohzxx__F0000.png");
     		height: 100px;
     	}
     </style>
@@ -105,7 +105,7 @@ while ($row = $dataObj->fetch_assoc()) {
 					<ul>
 						<li> <div class="profile">
 							
-							<img src="<?= $user[8];?>" width="100px" height="100px" alt="profile picture"/></div></li>
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/2000px-User_icon_2.svg.png" width="100px" height="100px" alt="profile picture"/></div></li>
 							<?php 
 								foreach($user as $services){
 									if($user[9]==$services || $user[0]==$services){
