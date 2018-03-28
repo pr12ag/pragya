@@ -42,13 +42,13 @@ $sql = "INSERT INTO user (name, email,mobile,password,gender,dob,address,descrip
 		if ($conn->query($sql) === TRUE) 
 		{
     	echo "New record created successfully";
-    	#header("location:index.php");
+    	header("location:index.php");
 	} 
 	else
 	 {
     echo "Error  ". $sql . $conn->error;  
     echo 'no entry';
-     # header("location:index.php");
+      header("location:index.php");
 		}
 	
 ?>
