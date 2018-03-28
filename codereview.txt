@@ -1,0 +1,26 @@
+what is not working in this project:
+Cant fetch user profile picture from database.(get help from bhaskar)
+still form is not working-: take it to the prashant
+check for CSS (sameer do it if you can.)
+
+
+
+change database picture column with type varchar instead of blob
+
+
+files(all .php):
+newlogin: login and signup form.
+signup: for new signup member
+login: for authorization
+connect: dashboard
+logout: logout page
+newsfeed: for  new post 
+update: still under maintainance
+connection: make connection with database
+time: for ajax working
+
+
+
+
+
+all other files are for testing purpose
