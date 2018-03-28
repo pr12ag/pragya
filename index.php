@@ -16,6 +16,12 @@ if(isset($_SESSION['mail'])){
     <script type="js/jquery.validat.js"></script>
 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<style >
+    	body{
+    		background-image:url("http://www.kinyu-z.net/data/wallpapers/117/1112705.jpg");
+    		height: 100px;
+    	}
+    </style>
 </head>
 <body >
 
