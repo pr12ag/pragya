@@ -12,6 +12,6 @@ $dob=date("Y-m-d",strtotime($_POST['DOB']));
 $qry="update user set name='$name',address='$addr' ,password='$pass', description='$desc', picture='$img' where email='$email';";
 if($conn->query($qry)===TRUE){
 	echo "row updated";
-	#header("location:connect.php");
+	header("location:connect.php");
 }
 ?>
