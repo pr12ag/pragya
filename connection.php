@@ -1,8 +1,8 @@
 <?php
-$password="admin";
+$password="root";
 $username="root";
 $server="localhost";
-$dbname="hestabook";
+$dbname="pragyadb";
 $conn = new mysqli($server, $username, $password, $dbname);
 if ($conn->connect_error) 
 	{
