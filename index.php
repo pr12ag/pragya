@@ -86,7 +86,7 @@ if(isset($_SESSION['mail'])){
                 <input type="address" name="address" id="address" class="form-control" placeholder="address" required>
                                     </div>  
                                 <div class="form-group">
-                <input type="number" name="mobile" id="number" class="form-control" placeholder="Mobile No." maxlength="10" required>
+                <input type="text" name="mobile" id="number" class="form-control" placeholder="Mobile No." maxlength="10" required>
                                     </div>
                                     <div class="form-group">
                 <input type="date" name="dateofbirth" id="dateofbirth" class="form-control" placeholder="D.O.B - yyyy/mm/dd"r required>
