@@ -105,7 +105,7 @@ while ($row = $dataObj->fetch_assoc()) {
 					<ul>
 						<li> <div class="profile">
 							
-							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/2000px-User_icon_2.svg.png" width="100px" height="100px" alt="profile picture"/></div></li>
+							<img src="http://www.solidbackgrounds.com/images/2880x1800/2880x1800-light-cyan-solid-color-background.jpg" width="100px" height="100px" alt="profile picture"/></div></li>
 							<?php 
 								foreach($user as $services){
 									if($user[9]==$services || $user[0]==$services){
